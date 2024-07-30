@@ -36,3 +36,9 @@ h1 {
 .container__imagem {
     padding: 1em;
 }
+
+.banner {
+    background-image: url("./img/floresta.jpg");
+
+
+}
