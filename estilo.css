@@ -1,47 +1,14 @@
-:root {
-    --cor-de-fundo: #EBECEE;
-}
-body {
-    background-color: var(--cor-de-fundo);
-}
-h1 {
-    background-color: white;
-}
-
-
-.cabeçalho_menu-hamburguer {
-    width: 24px;
-    height: 24px;
-    display: inline-block;
-    background-image: url(imagens/Menu.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-:root {
-    --cor-de-fundo: #EBECEE;
-    --branco: #FFFFFF;
-}
-.cabeçalho {
-    background-color: var(--branco);
-}
-.cabeçalho {
-    background-color: var(--branco);
-    display: flex;
-    justify-content: space-between;
-}
-.container {
-    display: flex;
-    align-items: center;
-}
-.container__imagem {
-    padding: 1em;
-}
-
-.banner {
-    background-image: url("./img/floresta.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 200px;
-
-
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+header { background: #333; color: #fff; padding: 1em; text-align: center; position: relative; }
+.menu { display: none; }
+.menu-btn { display: none; cursor: pointer; font-size: 1.5em; }
+nav { background: #444; text-align: center; display: none; }
+nav a { color: #fff; padding: 0.5em; text-decoration: none; display: block; }
+nav a:hover { background: #555; }
+.content, .sidebar { float: left; width: 48%; margin: 1%; background: #fff; padding: 1em; }
+footer { clear: both; background: #333; color: #fff; text-align: center; padding: 1em; }
+@media (max-width: 768px) {
+    .menu-btn { display: block; }
+    nav.show { display: block; }
+    .content, .sidebar { width: 100%; float: none; margin: 0; }
 }
