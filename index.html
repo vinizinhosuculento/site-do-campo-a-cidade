@@ -34,9 +34,10 @@
     <script>
         document.getElementById('menu-toggle').onclick = function() {
             var nav = document.getElementById('nav');
-            nav.style.display = nav.style.display === 'block' ? 'none' : 'block';
+            nav.classList.toggle('active');
         }
     </script>
 </body>
 </html>
+
 
