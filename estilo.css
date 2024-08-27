@@ -2,7 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #d0f0c0;
+    background-color: #d0f0c0; 
+}
 
 .menu {
     display: none;
@@ -16,7 +17,7 @@ body {
 }
 
 .menu ul li {
-    padding: 10;
+    padding: 10px;
 }
 
 .menu ul li a {
@@ -25,11 +26,49 @@ body {
     display: block;
 }
 
-.menu-btn:checked  .menu {
+.menu-btn:checked + .menu {
     display: block;
 }
 
 .menu-icon {
-    font-size: 30;
+    font-size: 30px;
     cursor: pointer;
     background: #2e8b57;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #f0f8ff; 
+    border-radius: 8px; 
+}
+
+.section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+}
+
+.footer {
+    background: #2e8b57; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
