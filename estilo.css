@@ -16,7 +16,7 @@ body {
 }
 
 .menu ul li {
-    padding: 10px;
+    padding: 10;
 }
 
 .menu ul li a {
@@ -25,11 +25,11 @@ body {
     display: block;
 }
 
-.menu-btn:checked + .menu {
+.menu-btn:checked  .menu {
     display: block;
 }
 
 .menu-icon {
-    font-size: 30px;
+    font-size: 30;
     cursor: pointer;
-    background: #2e8b57; 
+    background: #2e8b57;
