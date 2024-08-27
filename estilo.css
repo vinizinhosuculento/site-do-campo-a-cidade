@@ -2,10 +2,10 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
 .menu { display: none; background-color: #333; }
 .menu ul { list-style: none; padding: 0; margin: 0; }
 .menu ul li { padding: 10px; }
-.menu ul li a { color: white; text-decoration: none; display: block; }
+.menu ul li a { color: rgb(170, 226, 106); text-decoration: none; display: block; }
 .menu-btn:checked + .menu { display: block; }
-.menu-icon { font-size: 30px; cursor: pointer; background: #333; color: white; padding: 10px; display: block; }
-.header { background: #4CAF50; color: white; text-align: center; padding: 20px; }
+.menu-icon { font-size: 30px; cursor: pointer; background: #333; color: rgb(96, 187, 44); padding: 10px; display: block; }
+.header { background: #4CAF50; color: rgb(115, 213, 106); text-align: center; padding: 20px; }
 .header h1 { margin: 0; }
 .section { padding: 20px; margin: 10px; }
 .section img { width: 100%; height: auto; }
