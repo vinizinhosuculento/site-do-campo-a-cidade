@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #d0f0c0; 
+    background-color: #75b057; 
 }
 
 .menu {
@@ -21,7 +21,7 @@ body {
 }
 
 .menu ul li a {
-    color: white;
+    color: rgb(57, 172, 116);
     text-decoration: none;
     display: block;
 }
@@ -34,7 +34,7 @@ body {
     font-size: 30px;
     cursor: pointer;
     background: #2e8b57;
-    color: white;
+    color: rgb(68, 176, 113);
     padding: 10px;
     display: block;
 }
